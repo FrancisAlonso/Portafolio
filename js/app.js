@@ -66,4 +66,4 @@ document.querySelector('.cont_form_login').style.display = "none";
       newone = el.clone(true);
     el.before(newone);
     $("." + el.attr("class") + ":last").remove();
-  });
+  });;
